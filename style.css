@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+.logo{
+    font-size:2rem ;
+    color:aquamarine;
+    pointer-events: none;
+    margin-right: 320px;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 0 20px;
+    color:aquamarine;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.navigation a:hover, a.active{
+    background: aquamarine;
+    padding: 3px 20px;
+    color: white;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    font-size: 5rem;
+    color:#fff ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.sec h2{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20xp;
+
+}
+.sec p{
+    color: #fff;
+    padding: 20px;
+}
